@@ -1,0 +1,227 @@
+
+
+.slider-back {
+    background-color: rgb(71, 71, 73);
+    height: 80vh;
+    width: 100%;
+}
+.pic {
+    float: left;
+  }
+body {
+    margin: 0%;
+    padding: 0%;
+    
+}
+nav{
+width: 90%;
+height: 55px;
+padding: 0%; 
+position: fixed;
+}
+nav .logo p{
+font-size: small;
+font-weight: bold;
+float: left;
+color: aliceblue;
+text-transform: uppercase;
+letter-spacing: 1.5px;
+}
+nav .logo p{
+    position: absolute;
+    justify-content: left;
+    left:4% ;
+    top: -5%;
+}
+nav ul{
+    float: right;
+}
+nav ul {
+    font-size: small;
+    font-weight: bold;
+    padding: 0% 30px;
+    color: aliceblue;
+    word-spacing: 5px;
+    text-align: center;
+}
+nav ul{
+    position: absolute;
+    right: 265px;
+    top: -5%;
+}
+ .imoges{
+    position: absolute;
+    right: 54px;
+    text-align: end;
+    top: 14px;
+    width: 263px;
+    
+ }
+ .image1{
+    margin-bottom: -2px;
+    margin-right: 10px;
+ }
+.pera1{
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    font-weight: bold;
+   
+}
+.pera2{
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    display: inline;
+}
+.service{
+    font-size: medium;
+    font-weight: bold ;
+    color: antiquewhite;
+}
+.product{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(187, 187, 187);
+    font-size: small;
+    margin: 0%;
+}
+.design{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(187, 187, 187);
+    font-size: small;
+    margin: 0%;
+}
+.with{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(187, 187, 187);
+    font-size: small;
+    margin: 0%;
+}
+.show{
+    color: yellow;
+    font-size: small;
+    font-weight: lighter;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.circle {
+    border-radius: 100%;
+    background-color: rgb(49, 49, 49);
+    height: 50vh;
+    width: 25%;
+    position: absolute;
+    left: 36%; 
+    top: 20%; 
+}
+.Im{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(187, 187, 187);
+    font-size: x-large;
+    margin-bottom: 0%;
+
+}
+.name{
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: x-large;
+    
+}
+.detail{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-small;
+    color: white;
+    margin: 5%;
+}
+.detail-1{
+    margin: 0%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-small;
+}
+.detail-2{
+    margin: 0%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-small;
+}
+.line{
+height: 0.5vh;
+width: 80px;
+background-color: yellow;
+
+}
+.image {
+    position: absolute;
+    left:40% ;
+    top: 25%;
+}
+.slider-back2 {
+    background-color: rgb(81, 81, 81);
+    height: 14vh;
+    width: 80%;
+    position: absolute;
+    top: 66%;
+    left: 10.5%;
+    text-align: center;
+
+}
+li{
+   display: inline-block; 
+   background-color: rgb(49, 49, 49);
+   color: aliceblue;
+   border: 1px; solid;
+   width: 90px;
+   font-size: large;}
+
+.card{
+
+     display: flex; 
+    align-items: center;
+     
+}
+ .card-1{
+    position: absolute;
+    right: 150px;
+     height: 100px;
+    width: 150px;  
+}
+.child1 {
+    background-color: red;
+    border: 03px solid black;
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+     flex-grow: 3; 
+align-self: center;
+order: 1;
+}
+.child2 {
+    background-color: red;
+    border: 03px solid black;
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+    order: 4;
+}
+
+.child3 {
+    background-color: red;
+    border-style: 03px solid black;
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+    order: 2;
+}
+
+.child4 {
+    background-color: red;
+    border: 03px solid black;
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+    order: 3;
+}
